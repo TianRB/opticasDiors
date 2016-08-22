@@ -1,0 +1,64 @@
+// *{outline:1px solid black}
+
+body {
+	font-family: Calibri;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Times New Roman";
+}
+.slogan	{
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 19pt;
+	padding: 0;
+	padding-top: 0.5cm;
+	padding-bottom: 0.5cm;
+}
+.misionvision-bg {
+	background-image: url('../img/carousel/HugoBoss.jpg');
+	height: 22cm;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.quienessomos-bg {
+	background-image: url('../img/carousel/Dior.jpg');
+	height: 22cm;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.white-body{
+	margin-left: 5cm;
+	background-color: white;
+	max-width: 13cm;
+	padding: 1cm;
+	text-align: justify;
+	color: black;
+}
+.white-body > h1 {
+	font-size: 4em;
+	margin-bottom: 1cm;
+	margin-top: 2cm;
+
+}
+.white-body > p {
+	font-size: 16px;
+}
+.item > img  {
+	max-height: 22cm;
+	padding: auto;
+	margin: auto;
+	//width: 100%;
+}
+.carousel {
+	background-color: white;
+}
+// ##############################################
+
+@media (max-width: 991px) {
+	.slogan{
+		padding-top: 0.2cm;
+		padding-bottom: 0.2cm;
+	}
+}
