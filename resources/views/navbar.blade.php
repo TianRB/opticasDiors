@@ -27,18 +27,18 @@
 					<li class="dropdown">
 						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><b>SERVICIOS</b> <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">Examen de la Vista</a></li>
-							<li><a href="#">Oftalmológico</a></li>
-							<li><a href="#">Contactología</a></li>
-							<li><a href="#">Laboratorio Óptico</a></li>
-							<li><a href="#">Hospital de Anteojos</a></li>
-							<li><a href="#">Seguridad Industrial</a></li>
-							<li><a href="#">Garantías</a></li>
-							<li><a href="#">Óptica Móvil</a></li>
+							<li><a href="{{ url('/examendelavista') }}">Examen de la Vista</a></li>
+							<li><a href="{{ url('/oftalmologico') }}">Oftalmológico</a></li>
+							<li><a href="{{ url('/contactologia') }}">Contactología</a></li>
+							<li><a href="{{ url('/laboriatoriooptico') }}">Laboratorio Óptico</a></li>
+							<li><a href="{{ url('/hospitaldeaneojos') }}">Hospital de Anteojos</a></li>
+							<li><a href="{{ url('/seguridadindustrial') }}">Seguridad Industrial</a></li>
+							<li><a href="{{ url('/garantias') }}">Garantías</a></li>
+							<li><a href="{{ url('/opticamovil') }}">Óptica Móvil</a></li>
 						</ul>
 					</li>
 
-					<li class="hidden-xs hidden-sm"><img src="img/logo.png" alt="Opticas Diors - Logo" class="logo"></li>
+					<li class="hidden-xs hidden-sm"><a href="{{ url('/') }}"><img src="{{ asset('img/logo-small.png') }}" alt="Opticas Diors - Logo" class="logo"></a></li>
 
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><b>PRODUCTOS</b> <span class="caret"></span></a>
@@ -55,9 +55,9 @@
 						</ul>
 					</li>
 
-					<li><a href="{{ url('/') }}"><b class="promociones-menu-item">PROMOCIONES</b></a></li>
-					<li><a href="{{ url('/') }}"><b>CONVENIOS</b></a></li>
-					<li><a href="{{ url('/') }}"><b>SUCURSAL</b></a></li>
+					<li><a href="{{ url('/promociones') }}"><b class="promociones-menu-item">PROMOCIONES</b></a></li>
+					<li><a href="{{ url('/convenios') }}"><b>CONVENIOS</b></a></li>
+					<li><a href="{{ url('/sucursal') }}"><b>SUCURSAL</b></a></li>
 
 				</ul>
 			</div>

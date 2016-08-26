@@ -15,7 +15,6 @@
 | Rutas Públicas
 |--------------------------------------------------------------------------
 */
-
 // Nuestra Empresa
 Route::get('/', 'WelcomeController@index');
 Route::get('/quienessomos', 'WelcomeController@quienessomos');
@@ -36,6 +35,12 @@ Route::get('/opticamovil', 'WelcomeController@opticamovil');
 
 // Productos
 Route::get('/tiposdelente', 'WelcomeController@tiposdelente');
+
+Route::get('/monofocal', 'WelcomeController@monofocal');
+Route::get('/bifocal', 'WelcomeController@bifocal');
+Route::get('/antirreflejante', 'WelcomeController@antirreflejante');
+Route::get('/progresivo', 'WelcomeController@progresivo');
+
 Route::get('/materiales', 'WelcomeController@materiales');
 Route::get('/diseño', 'WelcomeController@diseño');
 Route::get('/tratamiento', 'WelcomeController@tratamiento');
@@ -51,11 +56,18 @@ Route::get('convenios', 'WelcomeController@convenios');
 
 // Sucursal
 Route::get('sucursal', 'WelcomeController@sucursal');
-
-// Rutas Privadas (Requieren Login)
+/*
+|--------------------------------------------------------------------------
+| Rutas Privadas - Requieren Login
+|--------------------------------------------------------------------------
+*/
+// Dashboard
 Route::get('home', 'HomeController@index');
-
-// Rutas Internas - NO CAMBIAR a menos que sepas exactamente lo que haces
+/*
+|--------------------------------------------------------------------------
+| Rutas Internas - NO CAMBIAR a menos que sepas exactamente lo que haces
+|--------------------------------------------------------------------------
+*/
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
