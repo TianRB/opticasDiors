@@ -1,5 +1,11 @@
 // *{outline:1px solid black}
-
+/*
+negro			1c1c1b
+rojo obscuro	be1621
+rojo claro		e10617
+gris			cccaca
+gris claro		e8e7e6
+*/
 body {
 	font-family: Calibri;
 }
@@ -188,7 +194,6 @@ button.admin {
 .fullscreen-img > img {
 	max-height: 22cm;
 	margin: auto;
-	
 }
 .spacer {
 	height: 1cm;
@@ -196,6 +201,18 @@ button.admin {
 .no-padding {
 	padding: 0;
 }
+.img-catalog-item {
+	border: 1px solid #cccaca;
+	border-radius: 10px;
+}
+.img-catalog-item > div > .img-heading {
+	font-size: 2em;
+}
+.img-catalog-item > img {
+	max-height: 300px;
+	max-width: 100%;
+}
+
 // ##############################################
 
 @media (max-width: 991px) {

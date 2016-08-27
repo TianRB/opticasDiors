@@ -8,7 +8,7 @@
 				<div class="panel-heading">Home</div>
 
 				<div class="panel-body">
-					home.blade.php
+					<a href="{{ url('promo/') }}"><button class="btn btn-default">Promociones</button></a>
 				</div>
 			</div>
 		</div>

@@ -144,7 +144,11 @@ return [
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
-
+		/*
+		 * User Providers...
+		 */
+    	'Collective\Html\HtmlServiceProvider',	// HTML
+		'Intervention\Image\ImageServiceProvider', // Intervention
 	],
 
 	/*
@@ -192,7 +196,10 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-
+		// User Aliases
+		'Form' 		=> 'Collective\Html\FormFacade',// Collective
+        'HTML'		=> 'Collective\Html\HtmlFacade',// Collective
+		'Image' 	=> 'Intervention\Image\Facades\Image',// Intervention
 	],
 
 ];

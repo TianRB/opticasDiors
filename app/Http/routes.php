@@ -10,6 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+
 /*
 |--------------------------------------------------------------------------
 | Rutas Públicas
@@ -63,6 +64,10 @@ Route::get('sucursal', 'WelcomeController@sucursal');
 */
 // Dashboard
 Route::get('home', 'HomeController@index');
+
+// Resource - Promocion
+Route::resource('promo', 'PromocionesController');
+
 /*
 |--------------------------------------------------------------------------
 | Rutas Internas - NO CAMBIAR a menos que sepas exactamente lo que haces

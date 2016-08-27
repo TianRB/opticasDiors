@@ -1,4 +1,5 @@
 <?php namespace App\Http\Controllers;
+use App\Promocion;
 
 class WelcomeController extends Controller {
 
@@ -26,7 +27,13 @@ class WelcomeController extends Controller {
 
 	public function index()
 	{
-		return view('welcome');
+		$p = Promocion::where('valid', 1)
+               ->orderBy('created_at')
+               ->take(4)
+               ->get();
+               //dd($p); // Descomentar para interrumpir script y mostrar contenido de $p
+		
+		return view('welcome', ['promocion' => $p]);
 	}
 	public function quienessomos()
 	{
