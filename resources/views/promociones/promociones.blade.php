@@ -21,16 +21,16 @@ Quienes Somos
 	<div class="promociones-perma-items container">
 		<div class="row hidden-sm hidden-xs">
 			<div class="col-md-3">
-				<div class="promociones-item-img"><img src="img/placeholder.png" alt="monofocal" class="center-block"></div>
+				<div class="promociones-item-img"><img src="img/promociones/monofocal.jpg" alt="monofocal" class="center-block"></div>
 			</div>
 			<div class="col-md-3">
-				<div class="promociones-item-img"><img src="img/placeholder.png" alt="bifocal" class="center-block"></div>
+				<div class="promociones-item-img"><img src="img/promociones/bifocal.jpg" alt="bifocal" class="center-block"></div>
 			</div>
 			<div class="col-md-3">
-				<div class="promociones-item-img"><img src="img/placeholder.png" alt="antireflejante" class="center-block"></div>
+				<div class="promociones-item-img"><img src="img/promociones/antirreflejante.jpg" alt="antireflejante" class="center-block"></div>
 			</div>
 			<div class="col-md-3">
-				<div class="promociones-item-img"><img src="img/placeholder.png" alt="progresivo" class="center-block"></div>
+				<div class="promociones-item-img"><img src="img/promociones/progresivo.jpg" alt="progresivo" class="center-block"></div>
 			</div>
 		</div>
 		<div class="long-separator"></div>

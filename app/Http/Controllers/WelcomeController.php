@@ -27,9 +27,9 @@ class WelcomeController extends Controller {
 
 	public function index()
 	{
-		$p = Promocion::where('valid', 1)
-               ->orderBy('created_at')
-               ->take(4)
+		$p = Promocion::where('valid', 1) // Tomar promociones con valid === 1
+               ->orderBy('created_at') // Ordenar por fecha de creación
+               ->take(4) // Tomar cuatro
                ->get();
                //dd($p); // Descomentar para interrumpir script y mostrar contenido de $p
 		

@@ -3,9 +3,11 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Promocion;
+use App\Session;
 use Input;
 use Image;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 class PromocionesController extends Controller {
 	
@@ -59,7 +61,7 @@ DELETE		/photo/{photo}		destroy		photo.destroy
 	public function store(Request $r)
 	{
 		$this->validate($r, [
-			'img' 	=> 'max:512|required|image',
+			'img' 	=> 'max:2048|required|image',
 			'title' => 'required'
 		]);
 		
@@ -69,6 +71,7 @@ DELETE		/photo/{photo}		destroy		photo.destroy
 		
 		$p = new Promocion;
 		$p->img = 'img/uploads/promociones/'.$imgName;
+		
 		$p->title = $r->title;
 		$p->valid = ($r->valid === "" ? true : false);
 		$p->save();
@@ -117,7 +120,11 @@ DELETE		/photo/{photo}		destroy		photo.destroy
 	 */
 	public function destroy($id)
 	{
-		//
+		$promo = Promocion::find($id);
+		$promo->delete();
+
+		//Session::flash('message', 'Promoción Eliminada');
+		return Redirect::to('promo');
 	}
 
 }
