@@ -22,7 +22,7 @@
 						</ul>
 					</li>
 
-					<li><a href="{{ url('/') }}"><b>SALUD VISUAL</b></a></li>
+					<li><a href="{{ url('/saludvisual') }}"><b>SALUD VISUAL</b></a></li>
 
 					<li class="dropdown">
 						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><b>SERVICIOS</b> <span class="caret"></span></a>

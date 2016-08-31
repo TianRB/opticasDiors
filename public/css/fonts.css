@@ -1,8 +1,9 @@
 @font-face {
     font-family: Balham;
     src: url(../fonts/Balham.otf);
-}
+}.balham{font-family:Balham}
+
 @font-face {
     font-family: Calibri;
     src: url(../fonts/Calibri.ttf);
-}
+}.calibri{font-family:calibri}
