@@ -29,7 +29,10 @@ footer > .long-separator {
 	margin-bottom:3px;
 }
 .red {
-	color: #be1621;
+	color: #be1621 !important;
+}
+.red-bg {
+	background-color: #be1621 !important;
 }
 .admin {
 	float: left;
@@ -255,6 +258,59 @@ input[type=text].convenio-text-field {
 	font-family: balham;
 	font-size: 1.3em;
 	font-weight: bold;
+}
+.salud-visual > div > div > h2 {
+	border-bottom: 2px solid #cccaca;
+	padding-bottom: .3em;
+}
+.grey-border {
+	border: 1px solid #cccaca;
+	margin: 0;
+	width: 100%;
+}
+.grey-border > li:first-child {
+	text-align: left;
+}
+.grey-border > li:last-child {
+	text-align: right;
+}
+.saludvisual-item {
+
+}
+.saludvisual-item > img {
+	width: 100%;
+}
+.saludvisual-descr-header {
+	position: relative;
+}
+.saludvisual-active > h4 {
+	//position: absolute;
+	background-color: rgba(220, 222, 215, 0.7);
+	padding: 10px 0 10px 0;
+
+}
+.saludvisual-item > a > h4 {
+	width: 100%;
+	padding: 10px 0 10px 0;
+	font-style: italic;
+	color: black;
+}
+.saludvisual-tgt > img {
+	width: 100%;
+}
+.saludvisual-tgt > .oval-separator {
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+.saludvisual-tgt > div > div > div > .oval-separator:first-child {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.saludvisual-tgt > div > div > div > .oval-separator {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 // ##############################################
 
