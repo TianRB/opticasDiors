@@ -25,6 +25,9 @@ Route::get('/misionvision', 'WelcomeController@misionvision');
 Route::get('/saludvisual', 'WelcomeController@saludvisual');
 
 // Servicios
+Route::get('/servicios', 'WelcomeController@servicios');
+
+/*
 Route::get('/examendelavista', 'WelcomeController@examendelavista');
 Route::get('/oftalmologico', 'WelcomeController@oftalmologico');
 Route::get('/contactologia', 'WelcomeController@contactologia');
@@ -33,21 +36,24 @@ Route::get('/hospitaldeanteojos', 'WelcomeController@hospitaldeanteojos');
 Route::get('/seguridadindustrial', 'WelcomeController@seguridadindustrial');
 Route::get('/garantias', 'WelcomeController@garantias');
 Route::get('/opticamovil', 'WelcomeController@opticamovil');
+*/
 
 // Productos
-Route::get('/tiposdelente', 'WelcomeController@tiposdelente');
+Route::get('/lentes', 'WelcomeController@lentes');
+Route::get('/armazones', 'WelcomeController@armazones');
 
+/*
 Route::get('/monofocal', 'WelcomeController@monofocal');
 Route::get('/bifocal', 'WelcomeController@bifocal');
 Route::get('/antirreflejante', 'WelcomeController@antirreflejante');
 Route::get('/progresivo', 'WelcomeController@progresivo');
-
 Route::get('/materiales', 'WelcomeController@materiales');
 Route::get('/diseño', 'WelcomeController@diseño');
 Route::get('/tratamiento', 'WelcomeController@tratamiento');
 Route::get('/lentesdecontacto', 'WelcomeController@lentesdecontacto');
 Route::get('/armazonesdelinea', 'WelcomeController@armazonesdelinea');
 Route::get('/armazonesdepromocion', 'WelcomeController@armazonesdepromocion');
+*/
 
 // Promociones
 Route::get('promociones', 'WelcomeController@promociones');

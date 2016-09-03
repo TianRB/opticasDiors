@@ -24,34 +24,15 @@
 
 					<li><a href="{{ url('/saludvisual') }}"><b>SALUD VISUAL</b></a></li>
 
-					<li class="dropdown">
-						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><b>SERVICIOS</b> <span class="caret"></span></a>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="{{ url('/examendelavista') }}">Examen de la Vista</a></li>
-							<li><a href="{{ url('/oftalmologico') }}">Oftalmológico</a></li>
-							<li><a href="{{ url('/contactologia') }}">Contactología</a></li>
-							<li><a href="{{ url('/laboriatoriooptico') }}">Laboratorio Óptico</a></li>
-							<li><a href="{{ url('/hospitaldeaneojos') }}">Hospital de Anteojos</a></li>
-							<li><a href="{{ url('/seguridadindustrial') }}">Seguridad Industrial</a></li>
-							<li><a href="{{ url('/garantias') }}">Garantías</a></li>
-							<li><a href="{{ url('/opticamovil') }}">Óptica Móvil</a></li>
-						</ul>
-					</li>
+					<li><a href="{{ url('/servicios') }}"><b>SERVICIOS</b></a></li>					
 
 					<li class="hidden-xs hidden-sm"><a href="{{ url('/') }}"><img src="{{ asset('img/logo-small.png') }}" alt="Opticas Diors - Logo" class="logo"></a></li>
 
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><b>PRODUCTOS</b> <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li class="dropdown-header">Lentes</li>
-							<li><a href="#">- Tipos de Lente</a></li>
-							<li><a href="#">- Materialies</a></li>
-							<li><a href="#">- Diseño</a></li>
-							<li><a href="#">- Tratamiento</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="#">Lentes de Contacto</a></li>
-							<li><a href="#">Armazones de Línea</a></li>
-							<li><a href="#">Armazones de Promoción</a></li>
+							<li><a href="{{ url('/lentes') }}">Lentes</a></li>
+							<li><a href="{{ url('/armazones') }}">Armazones</a></li>
 						</ul>
 					</li>
 

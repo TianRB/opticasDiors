@@ -7,18 +7,18 @@ Convenios
 	<div class="row slogan">
 		EXCELENCIA A LA VISTA
 	</div>
-	<div class="container promo-header text-center ">
-		<div class="oval-separator"></div>
+	<div class="container promo-header text-center no-padding">
+		<div class="long-line grey"></div>
 			<ul class="promo-header-body list-inline">
 				<li><span class="convenios-header">CONVENIOS</span></li>
 			</ul>
-		<div class="oval-separator"></div>
+		<div class="long-line grey"></div>
 	</div>
 	
-	<div class="convenios-body col-md-6 col-md-offset-3">
+	<div class="convenios-body col-md-6 col-md-offset-3 balham">
 		<p>Ofrecemos a empresas e instituciones (privadas y guburnamentales) diversos beneficios para sus trabajadores</p>
 		<p>Visitamos su empresa con nuestra Óptica Móvil.</p>
-		<ul>
+		<ul style="margin-left:30px;padding-left:10px;">
 			<li>Exámenes de la vista</li>
 			<li>Revisión oftalmológica</li>
 			<li>Precios exclusivos por compras de mayoreo</li>

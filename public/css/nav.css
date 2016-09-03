@@ -36,6 +36,10 @@
 	font-size: 1.5em;
 }
 .dropdown-menu > li {
+	width: 100vh;
+	text-align: center;
+	
+	
 }
 .dropdown-menu > li > a {
 	color: white;

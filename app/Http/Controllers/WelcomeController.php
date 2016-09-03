@@ -43,39 +43,25 @@ class WelcomeController extends Controller {
 	{
 		return view('nuestraempresa.misionvision');
 	}
+
 	public function saludvisual()
 	{
 		return view('saludvisual.saludvisual');
 	}
-	public function examendelavista()
+
+	public function servicios()
 	{
-		return view('servicios.examendelavista');
-	}
-	public function oftalmologico()
-	{
-		return view('servicios.oftalmologico');
+		return view('servicios.servicios');
 	}
 
-
-	public function monofocal()
+	public function lentes()
 	{
-		return view('productos.monofocal');
+		return view('productos.lentes');
 	}	
-	public function bifocal()
+	public function armazones()
 	{
-		return view('productos.bifocal');
+		return view('productos.armazones');
 	}	
-	public function antirreflejante()
-	{
-		return view('productos.antirreflejante');
-	}	
-	public function progresivo()
-	{
-		return view('productos.progresivo');
-	}	
-
-
-
 
 	public function promociones()
 	{
@@ -84,5 +70,10 @@ class WelcomeController extends Controller {
 	public function convenios()
 	{
 		return view('convenios.convenios');
+	}	
+
+	public function sucursal()
+	{
+		return view('sucursal.maps.todas');
 	}	
 }

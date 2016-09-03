@@ -34,8 +34,18 @@ footer > .long-separator {
 .red-bg {
 	background-color: #be1621 !important;
 }
+.grey  {
+	background-color: #e8e7e6 !important;
+}
 .admin {
 	float: left;
+}
+.black-bg {
+	background-color: black;
+	color: white;
+}
+span.red.times {
+	font-weight: normal;
 }
 button.admin {
 	float: none;
@@ -72,19 +82,26 @@ button.admin {
 .white-body{
 	margin-left: 5cm;
 	background-color: white;
-	max-width: 13cm;
+	max-width: 14cm;
 	padding: 1cm;
-	text-align: justify;
+	text-align: ;
 	color: black;
+	font-weight: bold;
+	height: 100%;
 }
 .white-body > h1 {
-	font-size: 4em;
-	margin-bottom: 1cm;
-	margin-top: 2cm;
-
+	font-size: 3em;
+	margin-bottom: 15px;
+	margin-top: 0.5cm;
+	text-align: center;
 }
+
 .white-body > p {
 	font-size: 16px;
+	line-height: 1.5em;
+	//text-indent: 30px;
+	margin:0;
+	text-align: center;
 }
 .item > img  {
 	max-height: 22cm;
@@ -190,8 +207,13 @@ button.admin {
 }
 .long-separator {
 	background-color: #cccaca;
-	height: 2px;
-	margin: 0.5cm -1000px 0.5cm -1000px;
+	height: 1px;
+	margin: 1cm -1000px 1cm -1000px;
+}
+.long-separator-dot {
+	height: 1px;
+	margin: 1cm -1000px 1cm -1000px;
+	border:1px dotted #cccaca;
 }
 .smaller {
 	font-size: 0.8em;
@@ -236,20 +258,22 @@ button.admin {
 	font-size: 1.4em;
 	margin-top:0.5cm;
 	margin-bottom:0.5cm;
+	font-weight: bold;
 }
 .convenios-body > ul {
 	list-style-type: none;
 	border-left: 1px solid #be1621;
-	font-style: italic;
+	//font-style: italic;
 }
 input[type=text].convenio-text-field {
 	border: 1px solid #be1621;
-	width:80%;
+	width:60%;
 }
 .errores-reflectivos-header {
 	font-size: 16pt;
+
 }
-.errores-reflectivos-img > img {
+.errores-reflectivos-img > video {
 	margin: 0.5cm auto 0.5cm auto;
 	//height: 300px;
 	width: 100%;
@@ -260,19 +284,21 @@ input[type=text].convenio-text-field {
 	font-weight: bold;
 }
 .salud-visual > div > div > h2 {
-	border-bottom: 2px solid #cccaca;
+	border-bottom: 1px dotted #cccaca;
 	padding-bottom: .3em;
 }
 .grey-border {
 	border: 1px solid #cccaca;
-	margin: 0;
+	//margin: 0;
 	width: 100%;
 }
 .grey-border > li:first-child {
 	text-align: left;
+	float:left;
 }
 .grey-border > li:last-child {
 	text-align: right;
+	float: right;
 }
 .saludvisual-item {
 
@@ -285,32 +311,90 @@ input[type=text].convenio-text-field {
 }
 .saludvisual-active > h4 {
 	//position: absolute;
-	background-color: rgba(220, 222, 215, 0.7);
+	//background-color: rgba(220, 222, 215, 0.7);
+	//color: #7c7a7a;
 	padding: 10px 0 10px 0;
-
+	color: black !important;
+}
+.saludvisual-item > a {
+	//text-decoration: none;
+	font-family: balham;
 }
 .saludvisual-item > a > h4 {
 	width: 100%;
-	padding: 10px 0 10px 0;
-	font-style: italic;
-	color: black;
+	padding: 17px 0 10px 0;
+	font-style: ;
+	color: #7c7a7a;
+	//text-decoration: none;
+}
+.saludvisual-item > a:hover {
+	text-decoration: underline solid black; // no quiere
+}
+.saludvisual-item > a:after {
+	//background-color: rgba(220, 222, 215, 0.7);
+	text-decoration: none;
+}
+.saludvisual-tgt {
+	font-family: balham;
 }
 .saludvisual-tgt > img {
 	width: 100%;
 }
-.saludvisual-tgt > .oval-separator {
+.saludvisual-tgt > .long-line {
 	margin-top: 10px;
 	margin-bottom: 10px;	
 }
-.saludvisual-tgt > div > div > div > .oval-separator:first-child {
+
+.saludvisual-tgt > div > div > div > .long-line {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	margin-left: auto;// mas chicas
+	margin-right: auto;
 }
-.saludvisual-tgt > div > div > div > .oval-separator {
-	margin-top: 10px;
+.saludvisual-descr-header > div > a > h4 {
+	font-size: 17px;
+	margin:0;
+	font-family: balham;
+
+}
+.long-line {
+	margin:0;
+	padding: 0;
+	width: 100%;
+	height: 1px;
+}
+.sucursales-list {
+	border-right: 1px solid #7c7a7a;
+	color: black;
+	padding-right:30px;
+	margin-right:30px;
+
+}
+.sucursales-list > ul > li {
+	list-style: none;
+}
+.sucursales-list > ul > li > a > div {
+	font-family: Times;
+	color: black;
+	text-align: right;
+}
+.sucursales-list > ul > li > a > div:first-child {
+	border-bottom: 1px solid #cccaca;
+	padding-bottom: 10px;
 	margin-bottom: 10px;
-	margin-left: 100px;
-	margin-right: 100px;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-style: italic;
+}
+.sucursales-list > ul > li > a > div:last-child {
+	margin-bottom: 20px;
+}
+.servicios-examendelavista {
+	padding:20px;
+}
+#map {
+	height: 700px;
+	width: 100%;
 }
 // ##############################################
 
