@@ -2,6 +2,9 @@
 @section('title')
 Salud Visual
 @endsection
+@section('style')
+
+@endsection
 @section('content')
 <div class="container-fluid">
 	<div class="row slogan">
@@ -10,8 +13,10 @@ Salud Visual
 	</div>
 	<div class="container-fluid salud-visual text-center">
 		<div class="col-xs-8 col-md-offset-2">
-			<div class="row balham errores-reflectivos-header text-center" style="font-weight: normal; font-size: 30px;">ERRORES REFLECTIVOS</div>
-			<div class="row errores-reflectivos-img"><video src="img/saludvisual/erroresrefractivos.webm" class="center-block" autoplay loop></div>
+			<div class="row balham errores-reflectivos-header text-center" style="font-weight: normal; font-size: 30px;">ERRORES REFLECTIVOS
+            </div>
+			<div class="row errores-reflectivos-img"><video src="img/saludvisual/erroresrefractivos.webm" class="center-block" autoplay loop>
+            </div>
 			<div class="balham text-center no-padding">
 				<p class="text-center" style="margin:17px 0 0 0;">El término error refractivo se refiere a un trastorno en el que el ojo tiene una forma irregular que hace que la luz no se concentre en la zona correcta de la retina. Los errores refractivos ocasionan diversos grados de visión borrosa. Los tipos de errores refractivos son la miopía, la hipermetropía y el astigmatismo. Así como la presbicia (vista cansada).</p>
 				<h2 class="text-center"><i>Causas</i></h2>

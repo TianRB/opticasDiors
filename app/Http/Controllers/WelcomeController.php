@@ -74,6 +74,6 @@ class WelcomeController extends Controller {
 
 	public function sucursal()
 	{
-		return view('sucursal.maps.todas');
+		return view('sucursal.sucursales');
 	}	
 }

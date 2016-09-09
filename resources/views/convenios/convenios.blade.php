@@ -27,7 +27,8 @@ Convenios
 		<p>Descuentos especiales para sus trabajadores y familiares.</p>
 		<p>Capacitación en el cuidado de la visión</p>
 		<p>Descuentos especiales en el área oftalmológica</p>
-		<p>Convenios actuales: <input type="text" class="convenio-text-field"></p>
+		<p>Convenios actuales: <input type="text" class="convenio-text-field" id="convenio-submit"></p>
+		<div class="results"></div>
 		<p>Si requiere más información o contratación, contáctanos y con gusto te atenderemos.</p>
 
 	</div>
@@ -36,10 +37,27 @@ Convenios
 @section('script')
 <script>
 $( document ).ready(function() {
-    $( "#convenio-submit" ).click(function( event ) {
- 		console.log( "Handler for .submit() called." );
- 		event.preventDefault();
-        event.stopPropagation();
+
+	var convenios = [
+	'CFE',
+	'Otra cosa',
+	'mas cosas',
+	'aladin',
+	'famsa',
+	'comodin'
+	];console.log(convenios);
+
+    $( "#convenio-submit" ).keydown(function( event ) {
+ 		//console.log( "Handler for .submit() called." );
+ 		var resultados = $.grep(convenios, function(valor, i){
+ 			return valor.toLowerCase().indexOf($('#convenio-submit').val().toLowerCase()) != -1;
+ 		});
+		//console.log(resultados);
+		if ($('#convenio-submit').val() != '') {	// Evita que el campo vacío regrese todos los elementos del arreglo
+			$('.results').html(resultados.slice(0,9).join("<br>"));
+		} else {
+			$('.results').html('');
+		}
 	});
 });
 </script>

@@ -1,9 +1,7 @@
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
-		<div><a href="{{ url('/') }}"><img src="{{ asset('img/logo-small.png') }}" alt="Opticas Diors - Logo" class="logo center-block"></a></div>
+
 		<div class="navbar-header">
-
-
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 				<span class="sr-only">Toggle Navigation</span>
 				<span class="icon-bar"></span>
@@ -28,6 +26,7 @@
 
 					<li><a href="{{ url('/servicios') }}"><b>SERVICIOS</b></a></li>					
 
+					<li class=""><a href="{{ url('/') }}"><img src="{{ asset('img/logo-small.png') }}" alt="Opticas Diors - Logo" class="logo"></a></li>
 
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><b>PRODUCTOS</b> <span class="caret"></span></a>

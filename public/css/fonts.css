@@ -6,5 +6,23 @@
 @font-face {
     font-family: Calibri;
     src: url(../fonts/Calibri.ttf);
-}.calibri{font-family:calibri}
+}.calibri{font-family:calibri !important}
+
+@font-face {
+    font-family: didot;
+    src: url(../fonts/Didot.ttc);
+}.didot{font-family:didot !important}
+
+@font-face {
+    font-family: futura;
+    src: url(../fonts/Futura.ttc);
+}.futura{font-family:futura !important}
+
+@font-face {
+    font-family: futuran;
+    src: url(../fonts/futuran.ttf);
+}.futuran{font-family:futuran !important}
+
+
 .times{font-family: 'Times New Roman' !important}
+

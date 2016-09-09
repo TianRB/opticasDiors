@@ -3,7 +3,7 @@
 	width: 2.8cm;
 }
 .nav-container {
-	width: 1300px;
+	//width: 1300px;
 }
 .navbar-default {
 	margin-top: 0.5cm;
@@ -17,9 +17,9 @@
 	font-family: Balham;
 	color: black;
 	font-size: 13pt;
-	top: 116px;
+	//top: 116px;
 }
-.navbar-default .navbar-nav > li:nth-child(4){top:0} /* Logo */ 
+// .navbar-default .navbar-nav > li:nth-child(4){top:0} /* Logo */ 
 .promociones-menu-item {
 	border-bottom: 4px solid red;
 }
@@ -27,6 +27,9 @@
 	font-family: Balham;
 	color: black;
 	font-size: 13pt;
+}
+.nav .navbar-nav {
+	display: none;
 }
 .dropdown-menu {
 	background-color: #be1621;
@@ -51,9 +54,13 @@
 	background-color: #e10617;
 }
 
-// ############################################################
-
 @media (max-width: 991px) {
+	.logo {
+		height: 1.8cm;
+		width: 1.4cm;
+		float: left;
+		margin: 5px 0;
+	}
 	.navbar-default .navbar-nav > li {
 		top:0;
 	}
