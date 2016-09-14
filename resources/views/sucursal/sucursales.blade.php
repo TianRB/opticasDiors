@@ -73,14 +73,14 @@ Sucursales
 <script>
 var map = L.map('map').setView([19.53, -96.91], 14);
 var m = L.icon({
-    iconUrl: 'img/sucursales/marker.jpg',
-    //shadowUrl: 'leaf-shadow.png',
+    iconUrl: 'img/sucursales/marker.png',
+    shadowUrl: 'img/sucursales/shadow3.png',
 
     iconSize:     [43, 70], // size of the icon
-    //shadowSize:   [50, 64], // size of the shadow
+    shadowSize:   [70, 48], // size of the shadow
     iconAnchor:   [22, 70], // point of the icon which will correspond to marker's location
-    //shadowAnchor: [4, 62],  // the same for the shadow
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+    shadowAnchor: [5, 43],  // the same for the shadow
+    popupAnchor:  [0, -66] // point from which the popup should open relative to the iconAnchor
 });
 $( document ).ready(function() {
 
@@ -90,7 +90,7 @@ $( document ).ready(function() {
 
 	L.marker([19.52882114371237, -96.91909611225128], {icon: m}).addTo(map)
     .bindPopup('Xalapeños Ilustres No. 11.<br>Tel. (228) 8 12 28 21');
-    //.openPopup(); // para abrir popup
+    //.openPopup(); // para forzar abrir popup
 
 	L.marker([19.51297036553621, -96.87806904315948], {icon: m}).addTo(map)
     .bindPopup('Plaza Américas<br>Tel. (228) 8 12 53 57');
@@ -110,13 +110,13 @@ $( document ).ready(function() {
 	L.marker([20.080358, -97.029826], {icon: m}).addTo(map)
     .bindPopup('Martinez de la Torre<br>Tel. (228) 8 90 49 07');
 
-    /*
+    
     map.on('click', function(e) {
-    	console.log('X, Y = '+e.latlng);
+    	console.log('Click en ' + e.latlng);
 	});
-	*/
 
-    $( "#centro" ).click(function(event) {
+
+	$( "#centro" ).click(function(event) {
  		event.preventDefault();
         event.stopPropagation();
 		map.panTo([19.52882114371237, -96.91909611225128]).setZoom(20);

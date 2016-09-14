@@ -24,7 +24,6 @@ class WelcomeController extends Controller {
 		//$this->middleware('guest');
 	}
 
-
 	public function index()
 	{
 		$p = Promocion::where('valid', 1) // Tomar promociones con valid === 1

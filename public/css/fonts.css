@@ -1,28 +1,28 @@
 @font-face {
-    font-family: Balham;
-    src: url(../fonts/Balham.otf);
-}.balham{font-family:Balham !important}
-
+    font-family: futura;
+    src: url(../fonts/futura.otf);
+}
 @font-face {
     font-family: Calibri;
     src: url(../fonts/Calibri.ttf);
-}.calibri{font-family:calibri !important}
-
+}
 @font-face {
     font-family: didot;
     src: url(../fonts/Didot.ttc);
-}.didot{font-family:didot !important}
-
+}
 @font-face {
     font-family: futura;
     src: url(../fonts/Futura.ttc);
-}.futura{font-family:futura !important}
-
+}
 @font-face {
     font-family: futuran;
     src: url(../fonts/futuran.ttf);
-}.futuran{font-family:futuran !important}
+}
 
-
+.futura{font-family:futura !important}
+.calibri{font-family:calibri !important}
+.didot{font-family:didot !important}
+.futuran{font-family:futuran !important}
+.futura{font-family:futura !important}
 .times{font-family: 'Times New Roman' !important}
 

@@ -12,12 +12,12 @@ Salud Visual
 		<div class="long-separator"></div>
 	</div>
 	<div class="container-fluid salud-visual text-center">
-		<div class="col-xs-8 col-md-offset-2">
-			<div class="row balham errores-reflectivos-header text-center" style="font-weight: normal; font-size: 30px;">ERRORES REFLECTIVOS
+		<div class="col-xs-12  col-md-8 col-md-offset-2">
+			<div class="row didot errores-reflectivos-header text-center" style="font-weight: normal; font-size: 30px;">ERRORES REFRACTIVOS
             </div>
 			<div class="row errores-reflectivos-img"><video src="img/saludvisual/erroresrefractivos.webm" class="center-block" autoplay loop>
             </div>
-			<div class="balham text-center no-padding">
+			<div class="futura text-center no-padding">
 				<p class="text-center" style="margin:17px 0 0 0;">El término error refractivo se refiere a un trastorno en el que el ojo tiene una forma irregular que hace que la luz no se concentre en la zona correcta de la retina. Los errores refractivos ocasionan diversos grados de visión borrosa. Los tipos de errores refractivos son la miopía, la hipermetropía y el astigmatismo. Así como la presbicia (vista cansada).</p>
 				<h2 class="text-center"><i>Causas</i></h2>
 				<p class="text-center" style="margin-bottom: 40px;">Se desconoce la causa de los errores de refracción, aunque algunos médicos pueden deberse a:</p>
@@ -28,19 +28,19 @@ Salud Visual
 				</ul>
 				<div class="long-separator red-bg"></div>
 				<div class="container-fluid saludvisual-descr-header no-padding">
-					<div class="saludvisual-item col-md-3">
+					<div class="saludvisual-item col-md-3 col-sm-6 col-xs-6">
 						<img src="img/saludvisual/miopia-1.png" alt="">
 						<a href="" id="miopia"><h4>MIOPÍA</h4></a>
 					</div>
-					<div class="saludvisual-item col-md-3">
+					<div class="saludvisual-item col-md-3 col-sm-6 col-xs-6">
 						<img src="img/saludvisual/hipermetropia-1.png" alt="">
 						<a href="" id="hipermetropia"><h4>HIPERMETROPÍA</h4></a>
 					</div>
-					<div class="saludvisual-item col-md-3">
+					<div class="saludvisual-item col-md-3 col-sm-6 col-xs-6">
 						<img src="img/saludvisual/astig_tismo-1.png" alt="">
 						<a href="" id="astigmatismo"><h4>ASTIGMATISMO</h4></a>
 					</div>
-					<div class="saludvisual-item col-md-3">
+					<div class="saludvisual-item col-md-3 col-sm-6 col-xs-6">
 						<img src="img/saludvisual/presbicia-1.png" alt="">
 						<a href="" id="presbicia"><h4>PRESBICIA</h4></a>
 					</div>

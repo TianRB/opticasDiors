@@ -15,7 +15,7 @@ Convenios
 		<div class="long-line grey"></div>
 	</div>
 	
-	<div class="convenios-body col-md-6 col-md-offset-3 balham">
+	<div class="convenios-body col-md-6 col-md-offset-3 futura">
 		<p>Ofrecemos a empresas e instituciones (privadas y guburnamentales) diversos beneficios para sus trabajadores</p>
 		<p>Visitamos su empresa con nuestra Óptica Móvil.</p>
 		<ul style="margin-left:30px;padding-left:10px;">

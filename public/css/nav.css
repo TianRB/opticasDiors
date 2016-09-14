@@ -14,34 +14,32 @@
 	margin-bottom: 0;
 }
 .navbar-default .navbar-nav > li {
-	font-family: Balham;
+	font-family: futura;
 	color: black;
 	font-size: 13pt;
+	left:0;
+	right:0;
 	//top: 116px;
 }
-// .navbar-default .navbar-nav > li:nth-child(4){top:0} /* Logo */ 
-.promociones-menu-item {
-	border-bottom: 4px solid red;
-}
 .navbar-default .navbar-nav > li > a {
-	font-family: Balham;
+	font-family: futura;
 	color: black;
 	font-size: 13pt;
 }
-.nav .navbar-nav {
-	display: none;
-}
+
 .dropdown-menu {
 	background-color: #be1621;
+	position: absolute;
+	width: 100vw;
+	text-align: center;
 }
 .dropdown-header {
 	color: white;
 	font-size: 1.5em;
 }
 .dropdown-menu > li {
-	width: 100vh;
-	text-align: center;
-	
+	//text-align: center;
+
 	
 }
 .dropdown-menu > li > a {

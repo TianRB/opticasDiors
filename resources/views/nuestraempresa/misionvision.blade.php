@@ -8,7 +8,7 @@ Quienes Somos
 		EXCELENCIA A LA VISTA
 	</div>
 		<div class="row misionvision-bg">
-			<div class="white-body balham text-center">
+			<div class="white-body futura text-center">
 				<h1><i>Misión</i></h1>
 				<div class="long-line grey" style="margin-bottom:21px;"></div>
 				<p>Brindar excelencia para la corrección <br>de los problemas visuales.</p>

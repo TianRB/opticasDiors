@@ -62,8 +62,9 @@ button.admin {
 }
 .slogan	{
 	text-align: center;
-	font-family: "Times New Roman";
+	font-family: futura;
 	font-size: 19pt;
+	letter-spacing: 5px;
 	padding: 0;
 	padding-top: 0.5cm;
 	padding-bottom: 0.5cm;
@@ -89,7 +90,7 @@ button.admin {
 	padding: 1cm;
 	text-align: ;
 	color: black;
-	font-weight: bold;
+	font-weight: gbold;
 	height: 100%;
 }
 .white-body > h1 {
@@ -119,7 +120,7 @@ button.admin {
 	font-family: 'Times New Roman';
 	font-size: 1.7em;
 	line-height: 0.9em;
-	width: 770px;
+	//width: 770px;
 }
 .promo-header-body > .divider {
 	width: 5px;
@@ -143,7 +144,7 @@ button.admin {
 .promo-header-body {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	width: 770px;
+	//width: 770px;
 	background-color: #e8e7e6;
 	border-top-left-radius:     1em 5em;
 	border-top-right-radius:    1em 5em;
@@ -173,7 +174,7 @@ button.admin {
 	text-align: center;
 	font-family: 'Times New Roman';
 	font-size: 1.3em;
-	font-weight: bold;
+	font-weight: gbold;
 }
 .promociones-precio {
 	color: #be1621;
@@ -184,8 +185,8 @@ button.admin {
 }
 .promociones-incluye {
 	margin: 0.5cm auto 0.5cm auto;
-	font-family: Balham;
-	font-weight: bold;
+	font-family: futura;
+	font-weight: gbold;
 	font-size: 1.2em;
 }
 .bancos {
@@ -252,7 +253,7 @@ button.admin {
 	max-width: 100%;
 }
 .convenios-header {
-	font-family: Balham;
+	font-family: futura;
 	font-style: normal;
 	font-size: 1.5em;
 }
@@ -261,7 +262,7 @@ button.admin {
 	font-size: 1.4em;
 	margin-top:0.5cm;
 	margin-bottom:0.5cm;
-	font-weight: bold;
+	font-weight: gbold;
 }
 .convenios-body > ul {
 	list-style-type: none;
@@ -288,9 +289,9 @@ input[type=text].convenio-text-field {
 	width: 100%;
 }
 .salud-visual {
-	font-family: balham;
+	font-family: futura;
 	font-size: 1.3em;
-	font-weight: bold;
+	font-weight: gbold;
 }
 .salud-visual > div > div > h2 {
 	border-bottom: 1px dotted #cccaca;
@@ -327,7 +328,7 @@ input[type=text].convenio-text-field {
 }
 .saludvisual-item > a {
 	//text-decoration: none;
-	font-family: balham;
+	font-family: futura;
 }
 .saludvisual-item > a > h4 {
 	width: 100%;
@@ -344,7 +345,7 @@ input[type=text].convenio-text-field {
 	text-decoration: none;
 }
 .saludvisual-tgt {
-	font-family: balham;
+	font-family: futura;
 }
 .saludvisual-tgt > img {
 	width: 100%;
@@ -363,7 +364,7 @@ input[type=text].convenio-text-field {
 .saludvisual-descr-header > div > a > h4 {
 	font-size: 17px;
 	margin:0;
-	font-family: balham;
+	font-family: futura;
 
 }
 .long-line {
@@ -395,7 +396,7 @@ input[type=text].convenio-text-field {
 	padding-bottom: 3px;
 	margin-bottom: 3px;
 	font-size: 1.2em;
-	font-weight: bold;
+	font-weight: gbold;
 	font-style: italic;
 }
 .sucursales-list > ul > li > a > div:last-child {
@@ -412,7 +413,7 @@ input[type=text].convenio-text-field {
 .servicios-item-col > div:last-child {margin-bottom:0;}
 .servicios-item-col > div {
 	margin: 30px 0 30px 0;
-	font-family: balham;
+	font-family: futura;
 	font-size: 1.2em;
 	font-weight: ;
 
@@ -521,7 +522,7 @@ span.black-bg {
 }
 .servicios-opticamovil {
 	display: inline-flex;
-	font-family: Balham;
+	font-family: futura;
 	padding: 30px;
 }
 .om-header {
@@ -533,6 +534,66 @@ span.black-bg {
 	margin-left: auto;
 	max-width: 40%;
 }
+.productos-header {
+	margin: 20px auto;
+}
+.productos-header > div:first-child {
+	font-family: didot;
+	//font-weight: bold;
+	font-style: italic;
+	font-size: 2em;
+}
+.productos-header > div:last-child {
+	font-family: didot;
+	font-weight: bold;
+	font-size: 3em;
+	letter-spacing: 25px;
+}
+.marcas {
+
+}
+.marcas > a > div {	
+	float: right;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+}
+.marcas > a > div > img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.overlay {
+	width: 100%;
+	height: 100%;
+	padding: 20% 10%;
+	position: fixed;
+	top: 0;
+	background-color: rgba(20, 20, 20, .50);
+  	box-shadow: 0 0 5px 10px rgba(20, 20, 20, .50);
+  }
+.overlay > div {
+	width: 60%;
+	margin: 0 auto;
+	padding: 0;
+	//border: 1px solid grey;
+
+}
+.overlay > div > img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	//border: 1px solid grey;
+
+}
+.overlay > div > p {
+	width: 100%;
+	padding: 1cm;
+	background-color: white;
+}
+.promociones-menu-item {
+	border-bottom: 4px solid red;
+}
 /*
 #######################################################################
 */
@@ -541,4 +602,13 @@ span.black-bg {
 		padding-top: 0.2cm;
 		padding-bottom: 0.2cm;
 	}
+	.white-body {
+		margin-left: 0;
+	}
+	.overlay > div {
+		width: 100%;
+		margin: auto;
+		border: 1px solid grey;
+	}
+
 }
