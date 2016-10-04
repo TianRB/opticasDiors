@@ -22,3 +22,8 @@ Quienes Somos
 	</div>
 </div>
 @endsection
+@section('script')
+<script>
+	$('#nuestraempresa').addClass('red');
+</script>
+@endsection

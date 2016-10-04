@@ -91,7 +91,7 @@ Armazones
 				<img src="img/marcas/marcasm/marcas_degradado_negro-14.png" alt="">
 			</div>
 		</a>
-		<a href="" class="preventNavigation" id="bakley">
+		<a href="" class="preventNavigation" id="oakley">
 			<div class="col-xs-6 col-md-3 no-padding">
 				<img src="img/marcas/marcasm/marcas_degradado_negro-17.png" alt="">
 			</div>
@@ -200,6 +200,7 @@ function createOverlay(img, body) {
 }
 
 $( document ).ready(function() {
+	$('#productos').addClass('red');
 
     $( ".preventNavigation" ).click(function( event ) {
  		event.preventDefault();
@@ -207,7 +208,7 @@ $( document ).ready(function() {
 	});
 
 	$( ".overlay" ).click(function( event ) {
-		$( ".overlay" ).toggleClass("hidden");
+		$( ".overlay" ).addClass("hidden");
 	});
 
 	/* marcas */
@@ -225,7 +226,7 @@ $( document ).ready(function() {
 
 	$( "#puma" ).click(function( event ) {
 		var img = 'marcas-29.png';
-		var body = '<p>todo</p>';
+		var body = '<p>Sus gafas plasman el espíritu de la marca en todos sus modelos, que son cómodos, flexibles y te ofrecen alta protección a los rayos del sol. Diseños exclusivos para los pioneros de la moda y del deporte, siempre luciendo estilos únicos y de vanguardia.</p>';
 		createOverlay(img, body);
 	});
 
@@ -237,7 +238,7 @@ $( document ).ready(function() {
 
 	$( "#tomford" ).click(function( event ) {
 		var img = 'marcas-27.png';
-		var body = '<p>todo</p>';
+		var body = '<p>Reconocida marca por ser un icono del glamour masculino y femenino. Se centra en depurar el diseño hasta llegar a su esencia.</p>';
 		createOverlay(img, body);
 	});
 
@@ -255,7 +256,7 @@ $( document ).ready(function() {
 
 	$( "#montblanc" ).click(function( event ) {
 		var img = 'marcas-25.png';
-		var body = '<p>todo</p>';
+		var body = '<p>Su colección de lentes oftálmicos y de sol definen los elementos de un estilo inigualable. Manifestando en sus diseños la tradición en el arte de la belleza, la clase y elegancia.</p>';
 		createOverlay(img, body);
 	});
 
@@ -279,7 +280,7 @@ $( document ).ready(function() {
 
 	$( "#dkny" ).click(function( event ) {
 		var img = 'marcas-24.png';
-		var body = '<p>todo</p>';
+		var body = '<p>Fundada en 1984 en Nueva York por Donna Karan, es una marca reconocida a nivel mundial. Presenta sus diseños en gafas con un estilo inconfundible que irradia con ese toque informal y a la vez elegante. DKNY siempre con un estilo único.</p>';
 		createOverlay(img, body);
 	});
 
@@ -301,9 +302,9 @@ $( document ).ready(function() {
 		createOverlay(img, body);
 	});
 
-	$( "#bakley" ).click(function( event ) {
+	$( "#oakley" ).click(function( event ) {
 		var img = 'marcas-17.png';
-		var body = '<p>todo</p>';
+		var body = '<p>Es una empresa norteamericana dedicada al diseño y fabricación de equipamiento deportivo, entre ellos incluyendo las gafas de sol. Sus diseños siempre transcienden en innovación, mostrando esa superioridad en lentes gracias a su tecnología.</p>';
 		createOverlay(img, body);
 	});
 
@@ -321,7 +322,7 @@ $( document ).ready(function() {
 
 	$( "#salvatoreferragamo" ).click(function( event ) {
 		var img = 'marcas-9.png';
-		var body = '<p>todo</p>';
+		var body = '<p>Salvatore Ferragamo creador de la marca, considerado como “el diseñador de calzado de las estrellas”.</p><p>Sus colecciones en gafas solares presentan singulares formas, colores y detalles característicos de la marca. Manifestando en sus diseños ese estilo de elegancia y personalidad única</p>';
 		createOverlay(img, body);
 	});
 
@@ -351,7 +352,7 @@ $( document ).ready(function() {
 
 	$( "#pierrecardin" ).click(function( event ) {
 		var img = 'marcas-8.png';
-		var body = '<p>todo</p>';
+		var body = '<p>sSegante, que va de la mano con el estilo de la marca del diseñador. Adornos y colores contrastantes da a esta colección una sensación de lujo.</p><p>Cada una de sus colecciones es una evidencia clara de su inigualable experimentación.</p>';
 		createOverlay(img, body);
 	});
 
@@ -363,7 +364,7 @@ $( document ).ready(function() {
 
 	$( "#marcjacobs" ).click(function( event ) {
 		var img = 'marcas-4.png';
-		var body = '<p>todo</p>';
+		var body = '<p>Siempre innovando, defendiendo ese estilo easy y dinámico increíblemente irresistible.</p>';
 		createOverlay(img, body);
 	});
 

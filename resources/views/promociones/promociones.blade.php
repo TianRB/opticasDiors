@@ -89,3 +89,8 @@ Quienes Somos
 	</div>
 </div>
 @endsection
+@section('script')
+<script>
+	$('#promociones').addClass('red');
+</script>
+@endsection

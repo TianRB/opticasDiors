@@ -59,6 +59,7 @@ Salud Visual
 @section('script')
 <script>
 $( document ).ready(function() {
+    $('#saludvisual').addClass('red');
 
     $( "#miopia" ).click(function( event ) {
  		//console.log( "Handler for .submit() called." );
@@ -104,8 +105,8 @@ $( document ).ready(function() {
         $( "#presbicia" ).removeClass("saludvisual-active");
         var descr = 
         '<div class="row" style="margin-top:20px;">'
-        	+'<img src="img/saludvisual/Astigmatismo.png" class="col-md-5">'
-        	+'<div class ="col-md-7 no-padding">'
+        	+'<img src="img/saludvisual/Astigmatismo-h.png" class="col-md-12">'
+        	+'<div class ="col-md-12">'
         		+'<p class="text-center">El astigmatismo es un problema en la curvatura de la córnea, que impide el enfoque claro de los objetos cercanos y lejanos. Esto se debe a que la córnea, en vez de ser redonda, se achata por los polos y aparecen distintos radios de curvatura en cada uno de los ejes principales. Por ello, cuando la luz incide a través de la córnea, se obtienen imágenes poco nítidas y distorsionadas.</p>'
         		+'<h3><i style="font-size:32px;">Tipos de Astigmatismo</i></h3>'
         		+'<div class ="long-line grey" style="margin:16px 0 18px 0;"></div>'

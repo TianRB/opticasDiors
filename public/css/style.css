@@ -8,6 +8,7 @@ gris claro		e8e7e6
 */
 body {
 	font-family: Calibri;
+	color:black;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Times New Roman";
@@ -70,33 +71,34 @@ button.admin {
 	padding-bottom: 0.5cm;
 }
 .misionvision-bg {
-	background-image: url('../img/carousel/HugoBoss.jpg');
+	background-image: url('../img/nosotros/bg-pareja.png');
 	height: 22cm;
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
 .quienessomos-bg {
-	background-image: url('../img/carousel/Dior.jpg');
+	background-image: url('../img/nosotros/bg-chica.png');
 	height: 22cm;
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
 .white-body{
-	margin-left: 5cm;
+	margin-left: 3cm;
+	margin-top: 170px;
 	background-color: white;
 	max-width: 14cm;
 	padding: 1cm;
-	text-align: ;
+	text-align: center;
 	color: black;
 	font-weight: gbold;
-	height: 100%;
+	//height: 100%;
 }
 .white-body > h1 {
 	font-size: 3em;
 	margin-bottom: 15px;
-	margin-top: 0.5cm;
+	margin-top: 0cm;
 	text-align: center;
 }
 
@@ -194,7 +196,7 @@ button.admin {
 }
 .bancos > div > div > img {
 	max-height: 0.6cm;
-	width: 75%;
+	//width: 75%;
 	margin-bottom: 0.25cm;
 }
 .oval-separator {
@@ -291,7 +293,6 @@ input[type=text].convenio-text-field {
 .salud-visual {
 	font-family: futura;
 	font-size: 1.3em;
-	font-weight: gbold;
 }
 .salud-visual > div > div > h2 {
 	border-bottom: 1px dotted #cccaca;
@@ -373,6 +374,26 @@ input[type=text].convenio-text-field {
 	width: 100%;
 	height: 1px;
 }
+.servicios-header {
+	font-family: didot;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: 25px;
+}
+.servicios {
+
+}
+.servicios > a {
+	
+}
+.servicios > a > div {
+	margin-bottom: -1px;
+}
+.servicios > a > div > img {
+	width: 100%;
+	
+}
+
 /*
 #######################################################################
 */
@@ -396,7 +417,7 @@ input[type=text].convenio-text-field {
 	padding-bottom: 3px;
 	margin-bottom: 3px;
 	font-size: 1.2em;
-	font-weight: gbold;
+	//font-weight: bold;
 	font-style: italic;
 }
 .sucursales-list > ul > li > a > div:last-child {
@@ -409,131 +430,6 @@ input[type=text].convenio-text-field {
 /*
 #######################################################################
 */
-.servicios-item-col > div:first-child {margin-top:0;}
-.servicios-item-col > div:last-child {margin-bottom:0;}
-.servicios-item-col > div {
-	margin: 30px 0 30px 0;
-	font-family: futura;
-	font-size: 1.2em;
-	font-weight: ;
-
-}
-span.black-bg {
-	padding: 5px 15px 5px 15px;
-	margin-bottom: 55px;
-	font-family: Times;
-	font-style: italic;
-	font-weight: normal;
-	font-size: 1.3em;
-}
-.servicios-examendelavista {
-	padding:60px;	
-}
-.servicios-examendelavista > div.long-line.red-bg {
-	max-width: 50%;
-	margin: 8px auto 12px auto;
-}
-.servicios-oftalmologo {
-	padding: 80px;
-
-}
-.servicios-oftalmologo > div:first-child { 
-	font-size: 1.3em;
-	font-style: normal;
-	border-bottom: 1px solid white;
-	padding-bottom: 10px;
-	margin-bottom: 20px;
-}
-.servicios-hospitaldeanteojos {
-	outline: 1px solid lightgrey;
-	padding: 10px 0 20px 0;
-}
-.servicios-hospitaldeanteojos > div:first-child {
-	font-size: 1.3em;
-	font-family: Times;
-	font-weight: normal;
-}
-.servicios-hospitaldeanteojos > p {
-	margin: 11px 0 15px 0;
-	font-style: italic;
-}
-.servicios-hospitaldeanteojos > p > span {
-	border-top:1px solid lightgrey;
-	border-bottom:1px solid lightgrey;
-	padding: 10px 0;
-}
-.servicios-garantias {
-	padding: 20px 10%;
-}
-.servicios-garantias > div:first-child {
-	font-size: 1.3em;
-	font-weight: normal;
-	
-}
-.servicios-garantias > div > p:first-child {
-	margin: 11px 0 15px 0;
-	font-style: italic;
-	border-top: 1px solid lightgrey;
-	border-bottom: 1px solid lightgrey;
-	padding: 10px 0;
-}
-.servicios-contactologia {
-	padding: 50px 20px;
-}
-.servicios-contactologia > div:first-child {
-	font-size: 1.3em;
-	font-weight: normal;
-	
-}
-.servicios-contactologia > div > p:first-child {
-	margin: 11px 0 15px 0;
-	//font-style: italic;
-	border-top:1px solid lightgrey;
-	//border-bottom:1px solid lightgrey;
-	padding: 10px 0;
-}
-.servicios-contactologia > div > p:nth-child(2) {
-	font-style: italic;
-}
-.servicios-contactologia > div > div {
-	margin-top: 30px;
-
-}
-.servicios-contactologia > div > div {
-	background-color:#eee;
-	color:black;
-	padding: 10px 30px;
-}
-.servicios-laboratiooptico > div:first-child {
-	font-size: 1.3em;
-}
-.servicios-laboratiooptico > img {
-	width: 100%;
-}
-.servicios-seguridadindustrial {
-	outline: 1px solid lightgrey;
-	padding: 10px 30px 10px 30px;
-}
-.servicios-seguridadindustrial > div:first-child {
-	font-size: 1.3em;
-}
-.servicios-item-col-double {
-	padding: 30px;
-}
-.servicios-opticamovil {
-	display: inline-flex;
-	font-family: futura;
-	padding: 30px;
-}
-.om-header {
- font-size: 1.5em;
- vertical-align: middle;
-}
-.om-body {
-	font-size: 1.2em;
-	margin-left: auto;
-	max-width: 40%;
-}
 .productos-header {
 	margin: 20px auto;
 }
@@ -591,8 +487,189 @@ span.black-bg {
 	padding: 1cm;
 	background-color: white;
 }
-.promociones-menu-item {
-	border-bottom: 4px solid red;
+.overlay-s {
+	width: 100%;
+	height: 100%;
+	padding: 5% 5%;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	background-color: rgba(20, 20, 20, .50);
+  	box-shadow: 0 0 5px 10px rgba(20, 20, 20, .50);
+}
+.overlay-s > div {
+	width: 60%;
+	height: 85%;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.overlay-s > div > img {
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid white;
+	margin: 0;
+	padding: 0;
+	margin-bottom: -1px;
+
+}
+
+.overlay-s > div > p {
+	padding: 1cm;
+	background-color: white;
+	margin-top: auto;
+
+}
+.overlay-s > div > p > h1 {
+	font-size: 2em;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	border-bottom: 3px dotted lightgrey;
+}
+.overlay-s > div > p > p {
+	text-align: center;
+	font-family: futura;
+	font-size: 16px;
+	color:#666;
+	padding:0;
+	margin:0;
+
+}
+.tLentes {
+	margin: 20px 0 0 0;
+}
+.tLentes > div > a {
+	color: black;
+	text-decoration: none;
+}
+.tLentes > div > a > img {
+	height: 100px;
+}
+.tLentes > div > a > div {
+	margin: 25px 0 10px 0;
+}
+.tLentes > div > a > div > span {
+	font-family: didot;
+	font-style: italic;
+	padding: 0 10px;
+}
+.tLentes > div > a > div:last-child {
+	font-family: futura;
+	font-size: 1.7em;
+	margin:0;
+}
+.tLentes-active {
+	color: #be1621 !important;
+}
+.tLentes-tgt {
+	margin: auto;
+	width: 75%;
+	font-family: futura;
+}
+.tLentes-tgt > h1 {
+	font-size: 3.5em;
+	font-style: italic;
+	margin: 0 auto 15px auto;
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: 3px dotted #ccc;
+	max-width:330px;
+}
+.tLentes-tgt > ul {
+	list-style-type: none;
+	padding: 0;
+}
+.tLentes-tgt > ul > li {
+
+}
+.tLentes-tgt > ul > li > div {
+	font-family: didot;
+	font-weight: bold;
+	margin: 15px 0;
+}
+.tLentes-tgt > ul > li > div > span {
+	list-style-type: none;
+	padding: 0;
+}
+.materiales > h1 {
+	margin: auto;
+	//letter-spacing: 20px;
+	text-align: center;
+	max-width: 265px;
+	border-bottom: 3px dotted #ccc;
+}
+.materiales > div {
+	padding: 0 40px;
+}
+.materiales > div > h3 {
+	margin: auto auto 10px auto;
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: 3px dotted #ccc;
+}
+.tratamientos {
+	
+}
+.tratamientos > div > div > a {
+	text-decoration: none;
+	color:black;
+	font-family: futura;
+    font-size: 1.6em;
+    margin: 0;
+}
+.tratamientos-tgt {
+	
+}
+.tratamientos-tgt > h1 {
+	font-size: 3.5em;
+	font-style: italic;
+	margin: 0 auto 15px auto;
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: 3px dotted #ccc;
+	max-width:390px;
+}
+.tratamientos-tgt > p {
+	font-family: futura;
+	font-weight: bold;
+	width: 60%;
+	margin: auto;
+}
+.tratamientos-tgt > ul {
+	font-family: didot;
+	list-style: none;
+	font-style: italic;
+	//font-weight: bold;
+	margin: auto;
+	padding:0;
+}
+.tratamientos-tgt > ul > li {
+ 	margin: 10px auto;
+ }
+.economicos {
+	font-family: futura;
+	font-weight: bold;
+	width: 60%;
+	margin: auto;
+}
+.economicos > h1 {
+	font-family: didot;
+	font-style: italic;
+	font-size: 3em;
+	color:#be1621;
+}
+.aviso {
+	width:45%;
+	margin: 30px auto;
+}
+.aviso > video {
+	margin-bottom: 30px;
+}
+.aviso > p {
+	font-family: didot;
+	font-style: italic;
+	font-size: 1.2em;
+	text-align: center;
 }
 /*
 #######################################################################
@@ -610,5 +687,30 @@ span.black-bg {
 		margin: auto;
 		border: 1px solid grey;
 	}
-
+	.tLentes-tgt {
+		margin: auto;
+		width: 100%;
+		font-family: futura;
+	}
+	.materiales > div {
+		padding: 15px;
+	}
+	.tratamientos-tgt > p {
+		width: 100%;
+	}
+	.economicos {
+		width: 100%;
+	}
+	.aviso {
+		width: 100%;
+	}
+	.tratamientos-tgt > h1 {
+		font-size: 2em;
+	}
+	.servicios-header {
+		letter-spacing: 5px;
+	}
+	.overlay-s > div {
+		width: 100%;
+	}
 }

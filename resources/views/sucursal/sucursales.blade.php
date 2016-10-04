@@ -83,6 +83,7 @@ var m = L.icon({
     popupAnchor:  [0, -66] // point from which the popup should open relative to the iconAnchor
 });
 $( document ).ready(function() {
+	$('#sucursal').addClass('red');
 
 	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 	    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -109,12 +110,10 @@ $( document ).ready(function() {
 
 	L.marker([20.080358, -97.029826], {icon: m}).addTo(map)
     .bindPopup('Martinez de la Torre<br>Tel. (228) 8 90 49 07');
-
     
     map.on('click', function(e) {
-    	console.log('Click en ' + e.latlng);
+    	console.log('Click en mapa: ' + e.latlng);
 	});
-
 
 	$( "#centro" ).click(function(event) {
  		event.preventDefault();

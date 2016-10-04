@@ -8,7 +8,7 @@ Quienes Somos
 		EXCELENCIA A LA VISTA
 	</div>
 		<div class="row quienessomos-bg">
-			<div class="white-body futura col-xs-12">
+			<div class="white-body futura col-xs-12" style="margin-top: 115px;">
 				<h1><i>¿Quienes Somos?</i></h1>
 				<div class="long-line grey" style="margin-bottom: 21px;"></div>
 				<p>Ópticas Diors empresa Veracruzana nacida en 1996 comprometida con la calidad, innovación óptica, y sobre todo la salud visual.</p>
@@ -22,4 +22,9 @@ Quienes Somos
 
 	</div>
 </div>
+@endsection
+@section('script')
+<script>
+	$('#nuestraempresa').addClass('red');
+</script>
 @endsection

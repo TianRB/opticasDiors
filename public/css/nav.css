@@ -2,62 +2,69 @@
 	height: 3.6cm;
 	width: 2.8cm;
 }
+ul.nav.navbar-nav {
+	margin-left:10%; 
+	width: 85%;
+}
 .nav-container {
 	//width: 1300px;
 }
 .navbar-default {
-	margin-top: 0.5cm;
-	padding-bottom: 0.5cm;
-	background-color: white;
-	border: 0;
 	border-bottom: 1px solid #cccaca;
+	background-color: white;
+	padding-bottom: 0.5cm;
+	margin-top: 0.5cm;
 	margin-bottom: 0;
+	margin: auto;
+	border: 0;
 }
 .navbar-default .navbar-nav > li {
-	font-family: futura;
-	color: black;
-	font-size: 13pt;
-	left:0;
-	right:0;
-	//top: 116px;
+	
 }
 .navbar-default .navbar-nav > li > a {
 	font-family: futura;
+	font-size: 11pt;
 	color: black;
-	font-size: 13pt;
 }
-
+.navbar-default .navbar-nav > li > a:hover {
+	color: #888;
+}
 .dropdown-menu {
 	background-color: #be1621;
 	position: absolute;
-	width: 100vw;
 	text-align: center;
+	width: 100vw;
 }
 .dropdown-header {
-	color: white;
 	font-size: 1.5em;
+	color: white;
 }
-.dropdown-menu > li {
+.dropdown-menu > li:hover {
 	//text-align: center;
 
 	
 }
 .dropdown-menu > li > a {
-	color: white;
+	background-color: #be1621;
 	font-family: Calibri;
-	font-size: 13pt;
+	font-size: 11pt;
+	color: white;
 }
 .dropdown-menu > li > a:hover {
+	background-color: #CE303A;
 	color: white;
-	background-color: #e10617;
+	
 }
-
+.promociones-menu-item {
+	border-bottom: 4px solid red;
+	font-family: didot;
+}
 @media (max-width: 991px) {
 	.logo {
 		height: 1.8cm;
+		margin: 5px 0;
 		width: 1.4cm;
 		float: left;
-		margin: 5px 0;
 	}
 	.navbar-default .navbar-nav > li {
 		top:0;

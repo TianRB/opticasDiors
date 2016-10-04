@@ -12,27 +12,27 @@
 	</div>
 
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		<div class="container nav-container">
+		<div class=" nav-container">
 			<ul class="nav navbar-nav">
 				<li class="dropdown">
-					<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><b>NUESTRA EMPRESA</b> <span class="caret"></span></a>
+					<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="nuestraempresa"><b>NUESTRA EMPRESA</b> <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu" style="left: -20vw;">
 						<li><a href="{{ url('/quienessomos') }}">¿Quienes Somos?</a></li>
 						<li><a href="{{ url('/misionvision') }}">Misión y Visión</a></li>
 					</ul>
 				</li>
-				<li><a href="{{ url('/saludvisual') }}"><b>SALUD VISUAL</b></a></li>
-				<li><a href="{{ url('/servicios') }}"><b>SERVICIOS</b></a></li>				
+				<li><a href="{{ url('/saludvisual') }}" id="saludvisual"><b>SALUD VISUAL</b></a></li>
+				<li><a href="{{ url('/servicios') }}" id="servicios"><b>SERVICIOS</b></a></li>				
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><b>PRODUCTOS</b> <span class="caret"></span></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="productos"><b>PRODUCTOS</b> <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu" style="left: -45vw;">
 						<li><a href="{{ url('/lentes') }}">Lentes</a></li>
 						<li><a href="{{ url('/armazones') }}">Armazones</a></li>
 					</ul>
 				</li>
-				<li><a href="{{ url('/promociones') }}"><b class="promociones-menu-item">PROMOCIONES</b></a></li>
-				<li><a href="{{ url('/convenios') }}"><b>CONVENIOS</b></a></li>
-				<li><a href="{{ url('/sucursal') }}"><b>SUCURSAL</b></a></li>
+				<li><a href="{{ url('/promociones') }}" id="promociones"><b class="promociones-menu-item">PROMOCIONES</b></a></li>
+				<li><a href="{{ url('/convenios') }}" id="convenios"><b>CONVENIOS</b></a></li>
+				<li><a href="{{ url('/sucursal') }}" id="sucursal"><b>SUCURSAL</b></a></li>
 
 			</ul>
 		</div>
