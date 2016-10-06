@@ -492,6 +492,7 @@ input[type=text].convenio-text-field {
 	height: 100%;
 	padding: 5% 5%;
 	position: fixed;
+	display: none;
 	top: 0;
 	text-align: center;
 	background-color: rgba(20, 20, 20, .50);
@@ -670,6 +671,9 @@ input[type=text].convenio-text-field {
 	font-style: italic;
 	font-size: 1.2em;
 	text-align: center;
+}
+.lista-paola {
+	margin-bottom: 50px;
 }
 /*
 #######################################################################

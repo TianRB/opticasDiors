@@ -21,17 +21,16 @@ Salud Visual
 				<p class="text-center" style="margin:17px 0 0 0;">El término error refractivo se refiere a un trastorno en el que el ojo tiene una forma irregular que hace que la luz no se concentre en la zona correcta de la retina. Los errores refractivos ocasionan diversos grados de visión borrosa. Los tipos de errores refractivos son la miopía, la hipermetropía y el astigmatismo. Así como la presbicia (vista cansada).</p>
 				<h2 class="text-center"><i>Causas</i></h2>
 				<p class="text-center" style="margin-bottom: 40px;">Se desconoce la causa de los errores de refracción, aunque algunos médicos pueden deberse a:</p>
-				<ul class="list-inline grey-border">
+				<ul class="list-inline lista-paola">
 					<li>Factores Hereditarios</li>
 					<li>Influencias Ambientales</li>
 					<li>Factores Alimenticios</li>
 				</ul>
-				<div class="long-separator red-bg"></div>
 				<div class="container-fluid saludvisual-descr-header no-padding">
-					<div class="saludvisual-item col-md-3 col-sm-6 col-xs-6">
+					<a href="" id="miopia"><div class="saludvisual-item col-md-3 col-sm-6 col-xs-6">
 						<img src="img/saludvisual/miopia-1.png" alt="">
-						<a href="" id="miopia"><h4>MIOPÍA</h4></a>
-					</div>
+						<h4>MIOPÍA</h4>
+					</div></a>
 					<div class="saludvisual-item col-md-3 col-sm-6 col-xs-6">
 						<img src="img/saludvisual/hipermetropia-1.png" alt="">
 						<a href="" id="hipermetropia"><h4>HIPERMETROPÍA</h4></a>

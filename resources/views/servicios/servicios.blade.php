@@ -55,7 +55,7 @@ Servicios
 	</div>
 </div>
 
-<div class="overlay-s hidden">
+<div class="overlay-s">
 	<div>
 		<img src="" alt="" class="">
 		<p class=""></p>
@@ -72,17 +72,18 @@ Servicios
 			src: imgPath+img
 		});
 		$( ".overlay-s > div > p" ).html(body);
-		$( ".overlay-s" ).removeClass("hidden");
+		$( ".overlay-s" ).show(500);
 	}
 
 	$( document ).ready(function() {
 		$('#servicios').addClass('red');
+		
 		$( ".preventNavigation" ).click(function( event ) {
 			event.preventDefault();
 			event.stopPropagation();
 		});
 		$( ".overlay-s" ).click(function( event ) {
-			$( ".overlay-s" ).addClass("hidden");
+			$( ".overlay-s" ).hide(500);
 		});
 
 
