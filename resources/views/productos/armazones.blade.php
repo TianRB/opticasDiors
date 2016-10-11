@@ -3,7 +3,7 @@
 Armazones
 @endsection
 @section('content')
-<div class="container-fluid">
+<div class="">
 	<div class="row slogan">
 		EXCELENCIA A LA VISTA
 	</div>
@@ -86,8 +86,8 @@ Armazones
 				<img src="img/marcas/marcasm/marcas_degradado_negro-20.png" alt="">
 			</div>
 		</a>
-		<a href="" class="preventNavigation" id="bulgari">
-			<div class="col-xs-6 col-md-3 no-padding">
+		<a href="" class="preventNavigation" id="bulgari"
+>			<div class="col-xs-6 col-md-3 no-padding">
 				<img src="img/marcas/marcasm/marcas_degradado_negro-14.png" alt="">
 			</div>
 		</a>
@@ -98,7 +98,7 @@ Armazones
 		</a>
 
 		<a href="" class="preventNavigation" id="dyg">
-			<div class="col-xs-6 col-md-3 no-padding">
+			<div class="col-xs-6 col-md-3 no-padding">mini
 				<img src="img/marcas/marcasm/marcas_degradado_negro-16.png" alt="">
 			</div>
 		</a>

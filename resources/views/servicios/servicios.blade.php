@@ -3,7 +3,7 @@
 Servicios
 @endsection
 @section('content')
-<div class="container-fluid">
+<div class="container-fluid no-padding">
 	<div class="row slogan">
 		EXCELENCIA A LA VISTA
 	</div>
@@ -77,7 +77,7 @@ Servicios
 
 	$( document ).ready(function() {
 		$('#servicios').addClass('red');
-		
+
 		$( ".preventNavigation" ).click(function( event ) {
 			event.preventDefault();
 			event.stopPropagation();

@@ -17,7 +17,7 @@ footer {
 	background-color: transparent;
 	width: 100%;
 	text-align: right;
-	margin-top: 10px;
+	//margin-top: 10px;
 }
 footer > div > a > img {
 	height: 1cm;
@@ -76,6 +76,9 @@ button.admin {
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
+}
+.alt-bg-xs > img {
+	max-width:100%;
 }
 .quienessomos-bg {
 	background-image: url('../img/nosotros/bg-chica.png');
@@ -327,15 +330,15 @@ input[type=text].convenio-text-field {
 	padding: 10px 0 10px 0;
 	color: black !important;
 }
-.saludvisual-item > a {
+.saludvisual-item >  {
 	//text-decoration: none;
 	font-family: futura;
 }
-.saludvisual-item > a > h4 {
+a > .saludvisual-item > h4 {
 	width: 100%;
 	padding: 17px 0 10px 0;
-	font-style: ;
-	color: #7c7a7a;
+	font-family: futura;
+	color: black;
 	//text-decoration: none;
 }
 .saludvisual-item > a:hover {
@@ -393,10 +396,6 @@ input[type=text].convenio-text-field {
 	width: 100%;
 	
 }
-
-/*
-#######################################################################
-*/
 .sucursales-list {
 	border-right: 1px solid #7c7a7a;
 	color: black;
@@ -427,9 +426,6 @@ input[type=text].convenio-text-field {
 	height: 700px;
 	width: 100%;
 }
-/*
-#######################################################################
-*/
 .productos-header {
 	margin: 20px auto;
 }
@@ -675,16 +671,24 @@ input[type=text].convenio-text-field {
 .lista-paola {
 	margin-bottom: 50px;
 }
+.errores-reflectivos-header {
+	font-size: 30px;
+}
+
 /*
 #######################################################################
 */
 @media (max-width: 991px) {
 	.slogan{
+		letter-spacing: 2px;
 		padding-top: 0.2cm;
 		padding-bottom: 0.2cm;
 	}
 	.white-body {
-		margin-left: 0;
+		margin:auto;
+		margin-top: 45px;
+		margin-bottom: 45px;
+		padding:0 15px;
 	}
 	.overlay > div {
 		width: 100%;
@@ -692,9 +696,9 @@ input[type=text].convenio-text-field {
 		border: 1px solid grey;
 	}
 	.tLentes-tgt {
-		margin: auto;
-		width: 100%;
-		font-family: futura;
+		margin:auto;
+		width:100%;
+		font-family:futura;
 	}
 	.materiales > div {
 		padding: 15px;
@@ -716,5 +720,30 @@ input[type=text].convenio-text-field {
 	}
 	.overlay-s > div {
 		width: 100%;
+	}
+	.marcas {
+		padding:0;
+	}
+	.productos-header > div:last-child {
+		letter-spacing: 15px;
+	}
+	.misionvision-bg {
+		background-image: none;
+	}
+	.quienessomos-bg {
+		background-image: none;
+	}
+	.errores-reflectivos-header {
+		font-size: 22px;
+	}
+	.saludvisual-item {
+		padding:0;
+	}
+	.saludvisual-item > h4 {
+		font-size: 13px;
+		padding:0 10px 0 10px;
+	}
+	.lista-paola {
+		margin: 0;
 	}
 }

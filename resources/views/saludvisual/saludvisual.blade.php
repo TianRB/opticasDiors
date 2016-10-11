@@ -6,14 +6,13 @@ Salud Visual
 
 @endsection
 @section('content')
-<div class="container-fluid">
+<div class="container-fluid ">
 	<div class="row slogan">
 		EXCELENCIA A LA VISTA
-		<div class="long-separator"></div>
 	</div>
-	<div class="container-fluid salud-visual text-center">
-		<div class="col-xs-12  col-md-8 col-md-offset-2">
-			<div class="row didot errores-reflectivos-header text-center" style="font-weight: normal; font-size: 30px;">ERRORES REFRACTIVOS
+	<div class="container-fluid salud-visual text-center no-padding">
+		<div class="col-xs-12  col-md-8 col-md-offset-2 no-padding">
+			<div class="row didot errores-reflectivos-header text-center" style="font-weight: normal">ERRORES REFRACTIVOS
             </div>
 			<div class="row errores-reflectivos-img"><video src="img/saludvisual/erroresrefractivos.webm" class="center-block" autoplay loop>
             </div>
@@ -27,22 +26,30 @@ Salud Visual
 					<li>Factores Alimenticios</li>
 				</ul>
 				<div class="container-fluid saludvisual-descr-header no-padding">
-					<a href="" id="miopia"><div class="saludvisual-item col-md-3 col-sm-6 col-xs-6">
-						<img src="img/saludvisual/miopia-1.png" alt="">
+					<a href="" id="miopia">
+                        <div class="saludvisual-item col-md-3 col-sm-6 col-xs-2">
+						<img src="img/saludvisual/miopia-1.png" alt="" class="hidden-xs">
 						<h4>MIOPÍA</h4>
-					</div></a>
-					<div class="saludvisual-item col-md-3 col-sm-6 col-xs-6">
-						<img src="img/saludvisual/hipermetropia-1.png" alt="">
-						<a href="" id="hipermetropia"><h4>HIPERMETROPÍA</h4></a>
-					</div>
-					<div class="saludvisual-item col-md-3 col-sm-6 col-xs-6">
-						<img src="img/saludvisual/astig_tismo-1.png" alt="">
-						<a href="" id="astigmatismo"><h4>ASTIGMATISMO</h4></a>
-					</div>
-					<div class="saludvisual-item col-md-3 col-sm-6 col-xs-6">
-						<img src="img/saludvisual/presbicia-1.png" alt="">
-						<a href="" id="presbicia"><h4>PRESBICIA</h4></a>
-					</div>
+					   </div>
+                    </a>
+					<a href="" id="hipermetropia">
+                        <div class="saludvisual-item col-md-3 col-sm-6 col-xs-4">
+						<img src="img/saludvisual/hipermetropia-1.png" alt="" class="hidden-xs">
+						<h4>HIPERMETROPÍA</h4>
+					   </div>
+                    </a>
+					<a href="" id="astigmatismo">
+                        <div class="saludvisual-item col-md-3 col-sm-6 col-xs-4">
+						<img src="img/saludvisual/astig_tismo-1.png" alt="" class="hidden-xs">
+						<h4>ASTIGMATISMO</h4>
+					   </div>
+                    </a>
+					<a href="" id="presbicia">
+                        <div class="saludvisual-item col-md-3 col-sm-6 col-xs-2">
+						<img src="img/saludvisual/presbicia-1.png" alt="" class="hidden-xs">
+						<h4>PRESBICIA</h4>
+					   </div>
+                    </a>
 				</div>
 				<div class="long-line grey" style="margin-bottom: 20px;border-bottom:2px;"></div>
 				<div class="saludvisual-tgt">
