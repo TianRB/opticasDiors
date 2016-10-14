@@ -77,4 +77,14 @@ ul.nav.navbar-nav {
 		font-size: 10pt;
 		top: 0;
 	}
+	.navbar-header {
+		min-height: 80px;
+	}
+	.logo {
+		position: absolute;
+		left: 43%;
+	}
+	.dropdown-menu > li > a {
+		background-color: white;
+	}
 }

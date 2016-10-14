@@ -10,10 +10,15 @@ Quienes Somos
 	
 	<div class="container promo-header text-center no-padding">
 		<div class="long-line grey"></div>
-			<ul class="promo-header-body list-inline" style="margin-left:0;">
+			<ul class="promo-header-body list-inline hidden-xs" style="margin-left:0;">
 				<li>15% de descuento en pago en efectivo<br><span class="smaller">ARMAZONES DE MARCA Y TRATAMIENTOS</span></li>
 				<li class="divider"></li>
 				<li>3, 6, 9 y 12 meses sin intereses<br>en tarjetas participantes</li>
+			</ul>
+			<ul class="promo-header-body-m list-inline visible-xs">
+				<li>15% de descuento en pago en efectivo <span class="smaller">ARMAZONES DE MARCA Y TRATAMIENTOS</span></li>
+				<li class="divider"></li>
+				<li>3, 6, 9 y 12 meses sin intereses en tarjetas participantes</li>
 			</ul>
 		<div class="long-line grey"></div>
 	</div>

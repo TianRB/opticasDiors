@@ -71,12 +71,13 @@ $( document ).ready(function() {
  		//console.log( "Handler for .submit() called." );
  		event.preventDefault();
         event.stopPropagation();
-        $( "#miopia" ).addClass("saludvisual-active");
-        $( "#hipermetropia" ).removeClass("saludvisual-active");
-        $( "#astigmatismo" ).removeClass("saludvisual-active");
-        $( "#presbicia" ).removeClass("saludvisual-active");
+        $( "#miopia > div > h4" ).addClass("red");
+        $( "#hipermetropia > div > h4" ).removeClass("red");
+        $( "#astigmatismo > div > h4" ).removeClass("red");
+        $( "#presbicia > div > h4" ).removeClass("red");
         var descr = 
-        '<img src="img/saludvisual/miopia-2.png">'
+        '<h2>MIOPIA</h2>'
+        +'<img src="img/saludvisual/miopia-2.png">'
         +'<div class="long-line grey"></div>'
         +'<p class="text-center">Un ojo miope puede ser más largo que un ojo normal o pude también tener un aumento en la curvatura de la córnea, los rayos de luz se enfocan delante de la retina, haciendo que la imagen este fuera de foco provocando que el objeto se vea borroso. Las personas miopes ven mal de lejos y bien de cerca, entre más miopía más cerca deben de estar del objeto para poder verlo bien. La miopía se corrige con una lente negativa en esfera.</p>'
         +'<h3><i style="font-size:32px;">Síntomas</i></h3>' 
@@ -88,12 +89,13 @@ $( document ).ready(function() {
  		//console.log( "Handler for .submit() called." );
  		event.preventDefault();
         event.stopPropagation();
-        $( "#miopia" ).removeClass("saludvisual-active");
-        $( "#hipermetropia" ).addClass("saludvisual-active");
-        $( "#astigmatismo" ).removeClass("saludvisual-active");
-        $( "#presbicia" ).removeClass("saludvisual-active");
+        $( "#miopia > div > h4" ).removeClass("red");
+        $( "#hipermetropia > div > h4" ).addClass("red");
+        $( "#astigmatismo > div > h4" ).removeClass("red");
+        $( "#presbicia > div > h4" ).removeClass("red");
         var descr = 
-        '<img src="img/saludvisual/hipermetropia-2.png">'
+         '<h2>HIPERMETROPÍA</h2>'
+        +'<img src="img/saludvisual/hipermetropia-2.png">'
         +'<div class="long-line grey"></div>'
         +'<p class="text-center">Un ojo hipermétrope es más pequeño de lo normal o la curvatura de la córnea es menos curva de lo normal o el poder de enfoque no es el correcto. Los rayos de luz no logran enfocarse sobre la retina se enfocan atrás provocando visión cercan borrosa y dificultan en enfocar objetos intermedios. La hipermetropía se corrige con una lente positiva en esfera.</p>'
         +'<h3><i style="font-size:32px;">Síntomas</i></h3>' 
@@ -105,13 +107,14 @@ $( document ).ready(function() {
  		//console.log( "Handler for .submit() called." );
  		event.preventDefault();
         event.stopPropagation();
-        $( "#miopia" ).removeClass("saludvisual-active");
-        $( "#hipermetropia" ).removeClass("saludvisual-active");
-        $( "#astigmatismo" ).addClass("saludvisual-active");
-        $( "#presbicia" ).removeClass("saludvisual-active");
+        $( "#miopia > div > h4" ).removeClass("red");
+        $( "#hipermetropia > div > h4" ).removeClass("red");
+        $( "#astigmatismo > div > h4" ).addClass("red");
+        $( "#presbicia > div > h4" ).removeClass("red");
         var descr = 
-        '<div class="row" style="margin-top:20px;">'
-        	+'<img src="img/saludvisual/Astigmatismo-h.png" class="col-md-12">'
+        	 '<h2>ASTIGMATISMO</h2>'
+            +'<img src="img/saludvisual/Astigmatismo-h.png">'
+            +'<div class="long-line grey"></div>'
         	+'<div class ="col-md-12">'
         		+'<p class="text-center">El astigmatismo es un problema en la curvatura de la córnea, que impide el enfoque claro de los objetos cercanos y lejanos. Esto se debe a que la córnea, en vez de ser redonda, se achata por los polos y aparecen distintos radios de curvatura en cada uno de los ejes principales. Por ello, cuando la luz incide a través de la córnea, se obtienen imágenes poco nítidas y distorsionadas.</p>'
         		+'<h3><i style="font-size:32px;">Tipos de Astigmatismo</i></h3>'
@@ -127,8 +130,6 @@ $( document ).ready(function() {
         			+'Cuando un eje se enfoca delante de la retina (miopía) y otro detrás de la retina (hipermetropia)'
         		+'</div>'
         	+'</div>'
-        +'</div>'
-        +'<div class ="long-line red-bg" style="margin:32px 0 0 0;"></div>'
         +'<h3><i style="font-size:32px;">Síntomas</i></h3>'        
         +'<p class="text-center">El síntoma más habitual del astigmatismo es la visión distorsionada a cualquier distancia. Las personas con astigmatismo, experimentar frecuentes dolores de cabeza y mareo. Su corrección es con lentes cilíndricas a las que se le inducen un eje de 0 a 180 grados esto para corregir el problema de la curvatura</p>'
         +'<div class ="long-line grey"></div>'
@@ -139,12 +140,13 @@ $( document ).ready(function() {
  		//console.log( "Handler for .submit() called." );
  		event.preventDefault();
         event.stopPropagation();
-        $( "#miopia" ).removeClass("saludvisual-active");
-        $( "#hipermetropia" ).removeClass("saludvisual-active");
-        $( "#astigmatismo" ).removeClass("saludvisual-active");
-        $( "#presbicia" ).addClass("saludvisual-active");
+        $( "#miopia > div > h4" ).removeClass("red");
+        $( "#hipermetropia > div > h4" ).removeClass("red");
+        $( "#astigmatismo > div > h4" ).removeClass("red");
+        $( "#presbicia > div > h4" ).addClass("red");
         var descr = 
-        '<img src="img/saludvisual/presbicia-2.png">'
+         '<h2>PRESBICIA</h2>'
+        +'<img src="img/saludvisual/presbicia-2.png">'
         +'<div class ="long-line grey"></div>'
         +'<p class="text-center" style="margin-bottom:20px;">La presbicia, un trastorno conocido comúnmente como "vista cansada", es la dificultad para ver de cerca. Los cambios producidos por la edad reducen el poder de acomodación de modo progresivo e irreversible.</p>'
 		+'<p style="font-style:italic;font-family:Times;margin:0;">Como consecuencia del envejecimiento se producen dos efectos:</p>'

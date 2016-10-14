@@ -137,7 +137,6 @@ Lentes
 			var descr = 
 			'<h1>BIFOCAL</h1>'
 			+'<p class="text-center">Este tipo de lentes, se caracteriza por tener dos puntos de enfoque, uno para la visión lejana y otro para la visión cercana, son para personas mayores a los 40 años las cuales padecen presbicia, conocida como vista cansada, se debe a la reducción natural de la capacidad para enfocar objetos cercanos. La parte de arriba de la lente sirve para la visión lejana y la media luna colocada en la parte inferior es para la visión cercana. Hay diferentes tipos de bifocales: blended, ejecutivo y el más conocido el Flat top 28, sefiere a la lente aplanada una sobre otra, el numero 28 es lo que mide la media luna.</p>'
-			+'<div style="height:200px"></div>'
 			$('.tLentes-tgt').html(descr);
 		});
 		$( "#progresivo" ).click(function( event ) {
@@ -149,7 +148,6 @@ Lentes
 			var descr = 
 			'<h1>PROGRESIVO</h1>'
 			+'<p class="text-center">Este tipo de lente enfocado a personas mayores de 40 años que padecen presbicia, se caracteriza por corregir las tres visiones: cercana, intermedia y lejana, ofreciendo una visión natural, ya que por medio de cálculos avanzados generados en un software, crean diseños especializados a las necesidades visuales de cada persona.<br>Dependiendo el diseño del lente progresivo mejorará tu calidad visual. Los diseños más sencillos tienen mayores campos de aberración a los lados y la transición entre las tres muy notoria e incómoda, por consiguiente te tomara mayor tiempo adaptarte. Entre mayor tecnología en el diseño del progresivo, mayor comodidad y menor aberración a los lados, te facilitara la transición de las tres distancias, además de que te tomara muy poco tiempo adaptarte.</p>'
-			+'<div style="height:200px"></div>'
 			$('.tLentes-tgt').html(descr);
 		});
 		$('#monofocal').click();
