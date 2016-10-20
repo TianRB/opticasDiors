@@ -72,7 +72,7 @@ Servicios
 			src: imgPath+img
 		});
 		$( ".overlay-s > div > p" ).html(body);
-		$( ".overlay-s" ).show(500);
+		$( ".overlay-s" ).show('fast');
 	}
 
 	$( document ).ready(function() {

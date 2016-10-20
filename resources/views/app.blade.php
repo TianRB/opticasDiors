@@ -9,7 +9,7 @@
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 	<link href="{{ asset('/css/fonts.css') }}" rel="stylesheet">
 	<link href="{{ asset('/css/style.css') }}" rel="stylesheet">
-	<link href="{{ asset('/css/nav.css') }}" rel="stylesheet">
+	<link href="{{ asset('/css/nav-alt.css') }}" rel="stylesheet">
 	@yield('style')
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,7 +21,7 @@
 </head>
 <body>
 
-	@include('navbar')
+	<center>@include('nav-alt')</center>
 	@yield('content')
 
 	@include('footer')
@@ -30,5 +30,22 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	@yield('script')
+	<script>
+		// Dos funciones que hacen que los dropdowns se alinien a la izquierda
+		var offset1 = $('#nuestraempresa').offset();
+		$('#dropdown-menu-nuestraempresa').offset({left: offset1.left*(-1)});
+
+		var offset2 = $('#productos').offset();
+		$('#dropdown-menu-productos').offset({left: offset2.left*(-1)});
+ // ADD SLIDEDOWN ANIMATION TO DROPDOWN //
+  $('.dropdown').on('show.bs.dropdown', function(e){
+    $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+  });
+
+  // ADD SLIDEUP ANIMATION TO DROPDOWN //
+  $('.dropdown').on('hide.bs.dropdown', function(e){
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+  });
+	</script>
 </body>
 </html>

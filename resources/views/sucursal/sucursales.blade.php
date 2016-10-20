@@ -58,17 +58,18 @@ Sucursales
 			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 		}).addTo(map);
 
+
 		$( "#sucursales-xalapa" ).click(function(event) {
 			event.preventDefault();
 			event.stopPropagation();
 			$( "#sucursales-xalapa > a" ).addClass('red');
-			$( "#pozarica" ).removeClass('red');			
-			$( "#cardel" ).removeClass('red');			
-			$( "#mdelat" ).removeClass('red');			
-			$( "#centro" ).removeClass('red');			
-			$( "#crystal" ).removeClass('red');			
-			$( "#americas" ).removeClass('red');			
-			$( "#museo" ).removeClass('red');			
+			$( "#pozarica" ).removeClass('red');
+			$( "#cardel" ).removeClass('red');
+			$( "#mdelat" ).removeClass('red');
+			$( "#centro" ).removeClass('red');
+			$( "#crystal" ).removeClass('red');
+			$( "#americas" ).removeClass('red');
+			$( "#museo" ).removeClass('red');
 			$('.sucursales-xalapa-list').show('fast');
 		});
 		$( "#pozarica" ).click(function(event) {
@@ -166,10 +167,10 @@ Sucursales
 		.bindPopup('<div>Xalapeños Ilustres</div><div>No. 21 Col. Centro</div><div>(228) 8-17-28-21</div>');
     //.openPopup(); // para forzar abrir popup
 
-    L.marker([19.51297036553621, -96.87806904315948], {icon: m}).addTo(map)
+    L.marker([19.51273, -96.87686], {icon: m}).addTo(map)
     .bindPopup('<div>Plaza Américas</div><div>Col. Pastoressa</div><div>(228) 8-12-53-57</div>');
 
-    L.marker([19.538851582326767, -96.90686523914337], {icon: m}).addTo(map)
+    L.marker([19.53927, -96.90706], {icon: m}).addTo(map)
     .bindPopup('<div>Plaza Crystal</div><div>Local No. 37 Zona C</div><div>(228) 8-14-29-50</div>'); // falta tel
 
     L.marker([19.547723754361183, -96.9332903623581], {icon: m}).addTo(map)
@@ -197,13 +198,13 @@ Sucursales
     $( "#americas" ).click(function(event) {
     	event.preventDefault();
     	event.stopPropagation();
-    	map.panTo([19.51297036553621, -96.87806904315948]).setZoom(20);
+    	map.panTo([19.51273, -96.87686]).setZoom(20);
     });
 
     $( "#crystal" ).click(function(event) {
     	event.preventDefault();
     	event.stopPropagation();
-    	map.panTo([19.538851582326767, -96.90686523914337]).setZoom(20);
+    	map.panTo([19.53927, -96.90706]).setZoom(20);
     });
 
     $( "#museo" ).click(function(event) {
@@ -230,3 +231,5 @@ Sucursales
 });
 </script>
 @endsection
+
+cristal y museo de 10 am a 9 pm, plaza americas de 11am a 9 pm, centro, martinez, poza rica de 9 am a 8 pm, cardel de 9 am a 7pm

@@ -98,7 +98,7 @@ Armazones
 		</a>
 
 		<a href="" class="preventNavigation" id="dyg">
-			<div class="col-xs-6 col-md-3 no-padding">mini
+			<div class="col-xs-6 col-md-3 no-padding">
 				<img src="img/marcas/marcasm/marcas_degradado_negro-16.png" alt="">
 			</div>
 		</a>
@@ -214,13 +214,13 @@ $( document ).ready(function() {
 	/* marcas */
 	$( "#kennethcole" ).click(function( event ) {
 		var img = 'marcas-28.png';
-		var body = '<p>todo</p>';
+		var body = '<p>#todo#</p>';
 		createOverlay(img, body);
 	});
 
 	$( "#carolinaherrera" ).click(function( event ) {
 		var img = 'marcas-30.png';
-		var body = '<p>todo</p>';
+		var body = '<p>#todo#</p>';
 		createOverlay(img, body);
 	});
 
@@ -262,7 +262,7 @@ $( document ).ready(function() {
 
 	$( "#cloe" ).click(function( event ) {
 		var img = 'marcas-23.png';
-		var body = '<p>todo</p>';
+		var body = '<p>#todo#</p>';
 		createOverlay(img, body);
 	});
 

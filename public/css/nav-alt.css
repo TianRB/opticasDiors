@@ -3,8 +3,7 @@
 	width: 2.8cm;
 }
 ul.nav.navbar-nav {
-	margin-left:10%; 
-	width: 85%;
+	width: 100%;
 }
 .nav-container {
 	//width: 1300px;
@@ -65,7 +64,8 @@ ul.nav.navbar-nav {
 		height: 1.8cm;
 		margin: 5px 0;
 		width: 1.4cm;
-		float: left;
+		position: absolute;
+		left: 43%;
 	}
 	.navbar-default .navbar-nav > li {
 		top:0;
@@ -79,10 +79,7 @@ ul.nav.navbar-nav {
 	.navbar-header {
 		min-height: 80px;
 	}
-	.logo {
-		position: absolute;
-		left: 43%;
-	}
+	
 	.dropdown-menu > li > a {
 		background-color: white;
 	}
